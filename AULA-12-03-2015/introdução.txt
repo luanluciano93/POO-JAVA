@@ -1,0 +1,7 @@
+/* Automovel -> Criar uma classe encapsulada em Java que represente um Automovel.
+• Nosso Automovel deve possuir marca, modelo, motorização, aceleração (de quantos em quantos km/h o automovel acelera), 
+frenagem (de quantos em quantos km/h o automovel freia), velocidade atual e velocidade máxima.
+• Implementar os métodos construtores que permitam instanciar um Automovel com e sem valor.
+• Implementar os métodos de acesso aos atributos;
+• O automovel ainda deve possuir métodos para acelerar e frear. Estes métodos sempre devem respeitar os limites de 
+aceleração e velocidade do automovel. */
