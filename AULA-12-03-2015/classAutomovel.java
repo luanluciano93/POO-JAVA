@@ -1,14 +1,4 @@
-/* Carro -> Criar uma classe encapsulada em Java que represente um Carro.
-• Nosso carro deve possuir marca, modelo, motorização, aceleração (de quantos 
-em quantos km/h o carro acelera), frenagem (de quantos em quantos km/h o 
-carro freia), velocidade atual e velocidade máxima.
-• Implementar os métodos construtores que permitam instanciar um Carro com e sem valor.
-• Implementar os métodos de acesso aos atributos;
-• O carro ainda deve possuir métodos para acelerar e frear. Estes métodos sempre 
-devem respeitar os limites de aceleração e velocidade do carro.
-*/
-
-public class Carro {
+public class Automovel {
     private String marca;
     private String modelo;
     private double motor;
@@ -17,11 +7,9 @@ public class Carro {
     private int velocidadeAtual;
     private int velocidadeMaxima;
 
-    public Carro(){
-        
-    }
+    public Automovel() { }
     
-    public Carro(String marca, String modelo, double motor, int aceleracao, int frenagem, int velocidadeMaxima) {
+    public Automovel(String marca, String modelo, double motor, int aceleracao, int frenagem, int velocidadeMaxima) {
         this.setMarca(marca);
         this.setModelo(modelo);
         this.setMotor(motor);
@@ -107,6 +95,4 @@ public class Carro {
     public void setVelocidadeMaxima(int velocidadeMaxima) {
         this.velocidadeMaxima = velocidadeMaxima;
     }
-    
-    
 }
