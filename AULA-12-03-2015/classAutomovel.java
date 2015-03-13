@@ -8,7 +8,7 @@ public class Automovel {
     protected int velocidadeMaxima;
 
     public Automovel() { }
-    
+
     public Automovel(String marca, String modelo, double motor, int aceleracao, int frenagem, int velocidadeMaxima) {
         this.setMarca(marca);
         this.setModelo(modelo);
@@ -16,16 +16,16 @@ public class Automovel {
         this.setAceleracao(aceleracao);
         this.setFrenagem(frenagem);
         this.setVelocidadeMaxima(velocidadeMaxima);
-    }    
-    
+    }
+
     public void acelerar() {        
         this.setVelocidadeAtual(this.getVelocidadeAtual() + this.getAceleracao());
     }
-    
+
     public void frear() {
         this.setVelocidadeAtual(this.getVelocidadeAtual() - this.getFrenagem());
     }
-    
+
     public String getMarca() {
         return marca;
     }
