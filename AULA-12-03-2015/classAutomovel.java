@@ -1,11 +1,11 @@
 public class Automovel {
-    private String marca;
-    private String modelo;
-    private double motor;
-    private int aceleracao;
-    private int frenagem;
-    private int velocidadeAtual;
-    private int velocidadeMaxima;
+    protected String marca;
+    protected String modelo;
+    protected double motor;
+    protected int aceleracao;
+    protected int frenagem;
+    protected int velocidadeAtual;
+    protected int velocidadeMaxima;
 
     public Automovel() { }
     
